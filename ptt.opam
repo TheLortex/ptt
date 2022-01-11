@@ -56,6 +56,7 @@ depends: [
   "ipaddr"
   "dmarc"
   "ptime"
+  "spamtacus-mirage"
   "alcotest-lwt" {>= "1.2.3" & with-test}
   "ipaddr" {>= "5.0.1" & with-test}
   "mirage-crypto-rng" {>= "0.8.10" & with-test}
@@ -77,4 +78,7 @@ pin-depends: [
   [ "irmin-fs.dev" "git+https://github.com/dinosaure/irmin.git#65d5fc6ef7d6dd76d103559edee0ad6036a896af" ]
   [ "irmin-layers.dev" "git+https://github.com/dinosaure/irmin.git#65d5fc6ef7d6dd76d103559edee0ad6036a896af" ]
   [ "ppx_irmin.dev" "git+https://github.com/dinosaure/irmin.git#65d5fc6ef7d6dd76d103559edee0ad6036a896af" ]
+  [ "spamtacus-bayesian.dev" "git+https://github.com/lyrm/spamtacus.git#592412e65708b3b70b9f195bb3588803e76d906d" ]
+  [ "spamtacus.dev" "git+https://github.com/lyrm/spamtacus.git#592412e65708b3b70b9f195bb3588803e76d906d" ]
+  [ "spamtacus-mirage.dev" "git+https://github.com/lyrm/spamtacus.git#592412e65708b3b70b9f195bb3588803e76d906d" ]
 ]
